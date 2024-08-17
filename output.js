@@ -1,7 +1,10 @@
+//Sat Aug 17 2024 08:30:48 GMT+0000 (Coordinated Universal Time)
+//Base:https://github.com/echo094/decode-js
+//Modify:https://github.com/smallfawn/decode_action
 //Sat Aug 17 2024 08:29:04 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
-const $ = new Env("慈晓");
+const $ = new Env("\u6148\u6653");
 {
   (() => {
     function b(F) {
@@ -661,13 +664,13 @@ const $ = new Env("慈晓");
             switch (at.prev = at.next) {
               case 0:
                 {
-                  if (console.log("作者：@xzxxn777\n频道：https://t.me/xzxxn777\n群组：https://t.me/xzxxn7777\n自用机场推荐：https://xn--diqv0fut7b.com\n"), j) {
+                  if (console.log("\u4F5C\u8005\uFF1A@xzxxn777\n\u9891\u9053\uFF1Ahttps://t.me/xzxxn777\n\u7FA4\u7EC4\uFF1Ahttps://t.me/xzxxn7777\n\u81EA\u7528\u673A\u573A\u63A8\u8350\uFF1Ahttps://xn--diqv0fut7b.com\n"), j) {
                     at.next = 6;
                     break;
                   }
-                  console.log("先去boxjs填写账号密码");
+                  console.log("\u5148\u53BBboxjs\u586B\u5199\u8D26\u53F7\u5BC6\u7801");
                   at.next = 5;
-                  return D("先去boxjs填写账号密码");
+                  return D("\u5148\u53BBboxjs\u586B\u5199\u8D26\u53F7\u5BC6\u7801");
                 }
               case 5:
                 {
@@ -693,13 +696,13 @@ const $ = new Env("慈晓");
                     break;
                   }
                   P = N.value;
-                  console.log("随机生成device");
+                  console.log("\u968F\u673A\u751F\u6210device");
                   m = A();
                   console.log(m);
                   phone_number = P.split("&")[0];
                   o = P.split("&")[1];
-                  console.log("用户：".concat(phone_number, "开始任务"));
-                  console.log("获取userinfoId");
+                  console.log("\u7528\u6237\uFF1A".concat(phone_number, "\u5F00\u59CB\u4EFB\u52A1"));
+                  console.log("\u83B7\u53D6userinfoId");
                   Q = Date.now().toString() + w(5) + x();
                   V = k.md5("@#@$AXdm123%)(ds".concat(Q, "api/UserInfo/GetRedNumberModel"));
                   at.next = 26;
@@ -737,7 +740,7 @@ const $ = new Env("慈晓");
                     at.next = 44;
                     break;
                   }
-                  console.log("已完成");
+                  console.log("\u5DF2\u5B8C\u6210");
                   return at.abrupt("continue", 99);
                 }
               case 44:
@@ -760,7 +763,7 @@ const $ = new Env("慈晓");
                 }
               case 51:
                 {
-                  for (console.log("文章：".concat(a4.title)), a5 = a4.url.split("?")[1], a6 = {}, a7 = a5.split("&"), a8 = 0, a9 = a7.length; a8 < a9; a8++) {
+                  for (console.log("\u6587\u7AE0\uFF1A".concat(a4.title)), a5 = a4.url.split("?")[1], a6 = {}, a7 = a5.split("&"), a8 = 0, a9 = a7.length; a8 < a9; a8++) {
                     aa = a7[a8].split("=");
                     a6[aa[0]] = aa[1];
                   }
@@ -811,7 +814,7 @@ const $ = new Env("慈晓");
               case 78:
                 {
                   af = at.sent;
-                  console.log("拥有".concat(af.data.length, "次抽奖"));
+                  console.log("\u62E5\u6709".concat(af.data.length, "\u6B21\u62BD\u5956"));
                   ag = c(af.data);
                   at.prev = 81;
                   ag.s();
@@ -829,7 +832,7 @@ const $ = new Env("慈晓");
               case 87:
                 {
                   aj = at.sent;
-                  1 == aj.data.awardType ? (console.log("抽奖获得：".concat(null == aj || null === (ak = aj.data) || 0 === ak ? 0 : ak.award).concat(null == aj || null === (al = aj.data) || 0 === al ? 0 : al.name)), l += "用户：".concat(phone_number, " 抽奖获得：").concat(null == aj || null === (am = aj.data) || 0 === am ? 0 : am.award).concat(null == aj || null === (an = aj.data) || 0 === an ? 0 : an.name, "\n")) : 2 == aj.data.awardType ? (console.log("抽奖获得：".concat(null == aj || null === (ao = aj.data) || 0 === ao ? 0 : ao.scoreAward).concat(null == aj || null === (ap = aj.data) || 0 === ap ? 0 : ap.name)), l += "用户：".concat(phone_number, " 抽奖获得：").concat(null == aj || null === (aq = aj.data) || 0 === aq ? 0 : aq.scoreAward).concat(null == aj || null === (ar = aj.data) || 0 === ar ? 0 : ar.name, "\n")) : (console.log("谢谢参与"), l += "用户：".concat(phone_number, " 抽奖获得：谢谢参与\n"));
+                  1 == aj.data.awardType ? (console.log("\u62BD\u5956\u83B7\u5F97\uFF1A".concat(null == aj || null === (ak = aj.data) || 0 === ak ? 0 : ak.award).concat(null == aj || null === (al = aj.data) || 0 === al ? 0 : al.name)), l += "\u7528\u6237\uFF1A".concat(phone_number, " \u62BD\u5956\u83B7\u5F97\uFF1A").concat(null == aj || null === (am = aj.data) || 0 === am ? 0 : am.award).concat(null == aj || null === (an = aj.data) || 0 === an ? 0 : an.name, "\n")) : 2 == aj.data.awardType ? (console.log("\u62BD\u5956\u83B7\u5F97\uFF1A".concat(null == aj || null === (ao = aj.data) || 0 === ao ? 0 : ao.scoreAward).concat(null == aj || null === (ap = aj.data) || 0 === ap ? 0 : ap.name)), l += "\u7528\u6237\uFF1A".concat(phone_number, " \u62BD\u5956\u83B7\u5F97\uFF1A").concat(null == aj || null === (aq = aj.data) || 0 === aq ? 0 : aq.scoreAward).concat(null == aj || null === (ar = aj.data) || 0 === ar ? 0 : ar.name, "\n")) : (console.log("\u8C22\u8C22\u53C2\u4E0E"), l += "\u7528\u6237\uFF1A".concat(phone_number, " \u62BD\u5956\u83B7\u5F97\uFF1A\u8C22\u8C22\u53C2\u4E0E\n"));
                 }
               case 89:
                 {
@@ -957,7 +960,7 @@ const $ = new Env("慈晓");
                                     break;
                                   }
                                   console.log("".concat(JSON.stringify(Q)));
-                                  console.log("".concat($.name, " API请求失败，请检查网路重试"));
+                                  console.log("".concat($.name, " API\u8BF7\u6C42\u5931\u8D25\uFF0C\u8BF7\u68C0\u67E5\u7F51\u8DEF\u91CD\u8BD5"));
                                   U.next = 9;
                                   break;
                                 }
@@ -1051,7 +1054,7 @@ const $ = new Env("慈晓");
                                     break;
                                   }
                                   console.log("".concat(JSON.stringify(Q)));
-                                  console.log("".concat($.name, " API请求失败，请检查网路重试"));
+                                  console.log("".concat($.name, " API\u8BF7\u6C42\u5931\u8D25\uFF0C\u8BF7\u68C0\u67E5\u7F51\u8DEF\u91CD\u8BD5"));
                                   U.next = 9;
                                   break;
                                 }
@@ -1168,13 +1171,13 @@ const $ = new Env("慈晓");
                     J.next = 5;
                     break;
                   }
-                  console.log("✅ ".concat($.name, ": 缓存中存在Utils代码, 跳过下载"));
+                  console.log("\u2705 ".concat($.name, ": \u7F13\u5B58\u4E2D\u5B58\u5728Utils\u4EE3\u7801, \u8DF3\u8FC7\u4E0B\u8F7D"));
                   eval(H);
                   return J.abrupt("return", creatUtils());
                 }
               case 5:
                 {
-                  console.log("🚀 ".concat($.name, ": 开始下载Utils代码"));
+                  console.log("\uD83D\uDE80 ".concat($.name, ": \u5F00\u59CB\u4E0B\u8F7DUtils\u4EE3\u7801"));
                   return J.abrupt("return", new Promise(function () {
                     var L = i(g().mark(function M(N) {
                       return g().wrap(function P(Q) {
@@ -1185,7 +1188,7 @@ const $ = new Env("慈晓");
                                 $.getScript("https://mirror.ghproxy.com/https://raw.githubusercontent.com/xzxxn777/Surge/main/Utils/Utils.js").then(function (S) {
                                   $.setdata(S, "Utils_Code");
                                   eval(S);
-                                  console.log("✅ Utils加载成功, 请继续");
+                                  console.log("\u2705 Utils\u52A0\u8F7D\u6210\u529F, \u8BF7\u7EE7\u7EED");
                                   N(creatUtils());
                                 });
                               }
@@ -1285,7 +1288,7 @@ function Env(t, e) {
       });
       return t.timeout ? ((t, e = 1000) => Promise.race([t, new Promise((t, s) => {
         setTimeout(() => {
-          s(new Error("请求超时"));
+          s(new Error("\u8BF7\u6C42\u8D85\u65F6"));
         }, e);
       })]))(o, t.timeout) : o;
     }
@@ -1800,7 +1803,7 @@ function Env(t, e) {
         }
       }
       if (!this.isMuteLog) {
-        let t = ["", "==============📣系统通知📣=============="];
+        let t = ["", "==============\uD83D\uDCE3\u7CFB\u7EDF\u901A\u77E5\uD83D\uDCE3=============="];
         t.push(e);
         s && t.push(s);
         o && t.push(o);
