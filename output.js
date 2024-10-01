@@ -1,4 +1,4 @@
-//Tue Oct 01 2024 04:35:31 GMT+0000 (Coordinated Universal Time)
+//Tue Oct 01 2024 04:36:43 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 var iｉl = 'jsjiami.com.v7';
@@ -2172,7 +2172,9 @@ async function liIIIIii() {
         'lykJp': Ili1l1ll(0x312, ']IcX')
       };
     if (i11iii1i[Ili1l1ll(0x42f, 'B4Qo')](Ili1l1ll(0x7b5, '%[l4'), Ili1l1ll(0xa55, 'IFli'))) {
-      l1lillI1[iillliil[Ili1l1ll(0xa72, 'SmYb')]] === I1iIIiIl && (iIliII11[iillliil[Ili1l1ll(0xbc6, 'T3@O')]] = !![]);
+      if (l1lillI1[iillliil[Ili1l1ll(0xa72, 'SmYb')]] === I1iIIiIl) {
+        iIliII11[iillliil[Ili1l1ll(0xbc6, 'T3@O')]] = !![];
+      }
       llIIliIl = lIii1llI[iillliil[Ili1l1ll(0xcb3, 'cp(x')]](Ii1iI1lI, Iilll11);
       l1i1lIII[iillliil[Ili1l1ll(0x243, 'An[e')]][Iliil1ll] = ii1IIIIi;
     } else {
